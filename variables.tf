@@ -1,4 +1,5 @@
 /**
+ * Copyright 2023 q.beyond AG
  * Copyright 2022 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -118,4 +119,10 @@ variable "service_account_create" {
   description = "Create service account. When set to false, uses a data source to reference an existing service account."
   type        = bool
   default     = true
+}
+
+variable "group_memberships" {
+  description = "Group IDs this service account should be a member of"
+  type        = list(string)
+  default     = []
 }
