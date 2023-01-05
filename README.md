@@ -9,7 +9,7 @@ Original Module from [Cloud-Foundation-Fabric](https://github.com/GoogleCloudPla
 <!-- BEGIN_TF_DOCS -->
 ## Usage
 
-It's very easy to use!
+This module creates a service-account under the specified google project
 ```hcl
 provider "google" {
 }
@@ -22,6 +22,11 @@ module "google_service_account" {
   source     = "../../"
   project_id = var.project_id
   name       = "sa-test-${random_id.service_account_name.hex}"
+}
+
+variable "project_id" {
+    description = "project_id to create the service account in"
+    type = string
 }
 ```
 
