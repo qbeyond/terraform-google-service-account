@@ -43,9 +43,9 @@ content: |-
 
   This module creates a service-account under the specified google project 
   ```hcl
-  {{ include "examples/basic/main.tf" }}
-
   {{ include "examples/basic/variables.tf" }}
+
+  {{ include "examples/basic/main.tf" }}
   ```
 
   {{ .Requirements }}
