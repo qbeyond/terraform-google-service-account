@@ -121,4 +121,4 @@ No modules.
 ## Contribute
 
 
-This Module is created from the Google Cloud Platform modules folder and holds its git history to be updatable. Please refer to the [Landing-zone Repository](https://github.com/qbeyond/terraform-google-landing-zone/tree/feature/initial) for information on updating or creating modules derived from google's Cloud-Foundation-Fabric
+This module is derived from [google cloud foundation fabric module `iam-service-accounts` v19](https://github.com/GoogleCloudPlatform/cloud-foundation-fabric/tree/v19.0.0/modules/iam-service-account). It is designed to be able to integrate new changes from the base repository. Refer to [guide in `terraform-google-landing-zone` repository](https://github.com/qbeyond/terraform-google-landing-zone/tree/main#updating-a-repository) for information on integrating changes.
