@@ -41,11 +41,13 @@ content: |-
 
   {{ indent 0 "#" }} Usage
 
-  It's very easy to use!
+  This module creates a service-account under the specified google project 
   ```hcl
   {{ include "examples/basic/main.tf" }}
+
+  {{ include "examples/basic/variables.tf" }}
   ```
-  
+
   {{ .Requirements }}
   {{ .Providers }}
   {{ .Inputs }}

@@ -115,4 +115,5 @@ No modules.
 
 ## Contribute
 
-This Module is created from the Google Cloud Platform modules folder and holds its git history to be updatable. To Update this module you need to filter the cloud-foundation-fabric repository with the [git-filter-repo](https://github.com/newren/git-filter-repo) plugin and use the existing [filter parameters](./git-repo-filter-module-iam-service-account.txt).
+
+This Module is created from the Google Cloud Platform modules folder and holds its git history to be updatable. Please refer to the [Landing-zone Repository](https://github.com/qbeyond/terraform-google-landing-zone/tree/feature/initial) for information on updating or creating modules derived from google's Cloud-Foundation-Fabric
